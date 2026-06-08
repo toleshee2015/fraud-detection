@@ -1,0 +1,10 @@
+cat << 'EOF' > requirements.txt
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+shap
+pytest
+jupyter
+EOF
