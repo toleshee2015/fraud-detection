@@ -1,28 +1,22 @@
-cat << 'EOF' > .gitignore
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual env
+# Virtual environment
 venv/
 env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (important)
-data/raw/
-data/processed/
-
-# Models
+# Models (usually large and regenerated)
 models/
 
-# OS
+# OS files
 .DS_Store
 
-# IDE
+# IDE settings
 .vscode/
 .idea/
-EOF
