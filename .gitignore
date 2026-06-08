@@ -1,24 +1,22 @@
-
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual env
+# Virtual environment
 venv/
 env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Models
+# Models (usually large and regenerated)
 models/
 
-# OS
+# OS files
 .DS_Store
 
-# IDE
+# IDE settings
 .vscode/
 .idea/
-EOF
