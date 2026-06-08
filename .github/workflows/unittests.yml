@@ -24,4 +24,7 @@ jobs:
 
       - name: Run tests
         run: pytest -q
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2684972 (update)
