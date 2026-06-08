@@ -1,4 +1,4 @@
-cat << 'EOF' > .gitignore
+
 # Python
 __pycache__/
 *.pyc
@@ -11,10 +11,6 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Data (important)
-data/raw/
-data/processed/
 
 # Models
 models/
